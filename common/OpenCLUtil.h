@@ -23,6 +23,7 @@ static const std::string AMD_PLATFORM = "AMD";
 static const std::string MESA_PLATFORM = "Clover";
 static const std::string INTEL_PLATFORM = "Intel";
 static const std::string APPLE_PLATFORM = "Apple";
+static const std::string RUSTICL_PLATFORM = "rusticl";
 
 cl::Platform getPlatform(std::string pName, cl_int &error);
 

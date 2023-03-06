@@ -56,6 +56,7 @@ Platform getPlatform()
     FIND_PLATFORM(INTEL_PLATFORM)
     FIND_PLATFORM(APPLE_PLATFORM)
     FIND_PLATFORM(MESA_PLATFORM)
+    FIND_PLATFORM(RUSTICL_PLATFORM)
 
     // If no platforms are found
     exit(252);
